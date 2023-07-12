@@ -1,0 +1,23 @@
+name = "kit_db"
+description = "Generated source for kit database package"
+version = "0.1.0-dev"
+
+authors = ["Fraser Wilson"]
+maintainers = ["Fraser Wilson <fraser@thewhitelion.eu>"]
+maintainers-logins = ["blancolioni"]
+licenses= "GPL-3.0-or-later"
+
+authors = ["Fraser Wilson"]
+maintainers = ["Fraser Wilson <fraser@thewhitelion.eu>"]
+maintainers-logins = ["blancolioni"]
+
+tags = ["utility", "database", "compiler"]
+website = "https://github.com/blancolioni/kit_db"
+
+
+[[depends-on]]
+marlowe = "~0.1.0-dev"
+[[depends-on]]
+kit_base = "~0.1.0-dev"
+[[depends-on]]
+kit_runtime = "~0.1.0-dev"
